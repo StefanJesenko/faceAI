@@ -3,8 +3,12 @@ Stefan Jesenko
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |03.05.2024| 0.0.1   |Ich habe mich dazu entschieden eine KI zu machen die gesichter erkennen kann.|
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|10.05.2024| 0.0.1   |Ich habe mich heute darüber Informiert welche Architektur ich für meine KI benutzen möchte.|
+|17.05.2024| 0.1.0   |Ich habe mir heute ein Datenset herausgesucht das ich benutzen kann um die KI zu trainieren.|
+|24.05.2024| 0.3.0   |Heute habe ich ein Skript geschrieben das das Datenset in train test und valid aufteilt und die Daten normalisiert.|
+|31.05.2024| 0.7.0   |Heute habe ich das Model programmiert und ein trainings skript gemacht.|
+|07.06.2024| 1.0.0  |Ein Prototyp der KI ist jetzt fertig, es müsste aber weiter trainiert werden damit es gesichter erkennen kann. Aktuell kann die KI nur erkennen ob etwas nah an der Kamera ist oder nicht.|
+
 
 ## 1 Informieren
 
@@ -49,7 +53,7 @@ In diesem Projekt mache ich ein CNN das durch die Kamera Gesichter erkennen kann
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 4.A  |17.05.2024|Stefan Jesenko|Dataset wird bereitgestellt.|45min|
+| 4.A  |17.05.2024|Stefan Jesenko|Dataset wird bereitgestellt.|60min|
 | 6.A  |17.05.2024|Stefan Jesenko|Die nötigen Pytorch Bibliotheken werden heruntergeladen.|45min|
 | 3.A  |24.05.2024|Stefan Jesenko|Wenn das Script verwendet wird wird die Kamera geöffnet.|45min|
 | 3.B  |24.05.2024|Stefan Jesenko|Die Kamera wird in einem Fenster auf dem Bildschirm angezeigt.|45min|
@@ -68,10 +72,16 @@ Ich habe mich dazu entschieden das CelebA Dataset zu benutzen, weil es sehr umfa
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 4.A  |17.05.2024|Stefan Jesenko|45min|70min|
+| 6.A  |17.05.2024|Stefan Jesenko|45min|60min|
+| 3.A  |24.05.2024|Stefan Jesenko|45min|60min|
+| 3.B  |24.05.2024|Stefan Jesenko|45min|50min|
+| 5.A  |31.05.2024|Stefan Jesenko|90min|100min|
+| 1.A  |31.05.2024|Stefan Jesenko|45min|180min|
+| 1.B  |31.05.2024|Stefan Jesenko|45min|90min|
+| 2.A  |31.05.2024|Stefan Jesenko|45min|45min|
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+
 
 ## 5 Kontrollieren
 
@@ -79,20 +89,19 @@ Ich habe mich dazu entschieden das CelebA Dataset zu benutzen, weil es sehr umfa
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |14.06.2024|OK|Stefan Jesenko|
+| 1.2  |14.06.2024|NOK|Stefan Jesenko|
+| 2.1  |14.06.2024|OK|Stefan Jesenko|
+| 2.2  |14.06.2024|NOK|Stefan Jesenko|
+| 3.1  |14.06.2024|OK|Stefan Jesenko|
+| 4.1  |14.06.2024|OK|Stefan Jesenko|
+| 5.1  |14.06.2024|NOK|Stefan Jesenko|
+| 6.1  |14.06.2024|OK|Stefan Jesenko|
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
-### 5.2 Exploratives Testen
 
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
 
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
 
 ## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+
