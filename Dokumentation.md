@@ -90,9 +90,9 @@ Ich habe mich dazu entschieden das CelebA Dataset zu benutzen, weil es sehr umfa
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1  |14.06.2024|OK|Stefan Jesenko|
-| 1.2  |14.06.2024|NOK|Stefan Jesenko|
+| 1.2  |14.06.2024|OK|Stefan Jesenko|
 | 2.1  |14.06.2024|OK|Stefan Jesenko|
-| 2.2  |14.06.2024|NOK|Stefan Jesenko|
+| 2.2  |14.06.2024|OK|Stefan Jesenko|
 | 3.1  |14.06.2024|OK|Stefan Jesenko|
 | 4.1  |14.06.2024|OK|Stefan Jesenko|
 | 5.1  |14.06.2024|NOK|Stefan Jesenko|
