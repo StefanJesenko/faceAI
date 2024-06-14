@@ -43,12 +43,6 @@ In diesem Projekt mache ich ein CNN das durch die Kamera Gesichter erkennen kann
 | 6.1  | - | - |Das Model funktioniert mit Pytorch.|
 
 
-
-
-### 1.4 Diagramme
-
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
-
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
