@@ -98,4 +98,4 @@ Ich habe mich dazu entschieden das CelebA Dataset zu benutzen, weil es sehr umfa
 
 ## 6 Auswerten
 
-
+[Link zum Portfolio](https://portfolio.bbbaden.ch/view/view.php?t=e08dcc560e1886c8e92d)
