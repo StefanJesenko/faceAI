@@ -92,6 +92,8 @@ Ich habe mich dazu entschieden das CelebA Dataset zu benutzen, weil es sehr umfa
 | 5.1  |14.06.2024|NOK|Stefan Jesenko|
 | 6.1  |14.06.2024|OK|Stefan Jesenko|
 
+Das Produkt ist eigentlich Funktional, das Model braucht nur mehr Training um die Genauigkeit zu erhöhen. (Ich konnte das Model nicht auf Github hochladen, weil die Datei zu gross ist.)
+
 
 
 
